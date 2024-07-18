@@ -44,6 +44,9 @@ h2 + button {
     font-size: 20px;
 }
 
+h1{
+    color: white;
+}
 footer > a {
     color: #457b9d;
 }
