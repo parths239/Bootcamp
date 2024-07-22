@@ -4,3 +4,9 @@ div {
   height: 200px;
   background-color: #cdb4db;
 }
+
+h1 {
+  background-color: pink;
+  width: 100px;
+  padding-left: 100px;
+}
