@@ -1,16 +1,38 @@
-body{
+
+body {
+
+  margin: 0 auto;
   background-color: olivedrab;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+
 button{
-  margin: 2px;
-  padding: 2px;
-  align-items: center;
-  align-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  padding: 10px;
+  position: sticky;
+  background-color: brown;
+  border: 2px solid;
+  width: 300px;
+  height: 100px;
+  transition-duration: 0.5s;
+  border-radius: 5%;
+  margin-top: 300px;
+  
+
 }
 
 button:hover{
-  background-color: brown;
-  color: white;
+  border-color: #370617;
+  background-color: chocolate;
+  color: black;
+  box-shadow: 10px 5px 5px beige;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }
