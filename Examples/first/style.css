@@ -1,0 +1,16 @@
+body{
+  background-color: olivedrab;
+  align-content: center;
+}
+
+button{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  align-content: center;
+}
+
+button:hover{
+  background-color: brown;
+  color: white;
+}
