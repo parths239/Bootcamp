@@ -16,5 +16,27 @@ ul,li {
     padding: 0;
 }
 
+/* @media (min-width: 800px){
 
+    h1{
+        color: purple;
+        
+    }
+
+} */
+
+@media (min-width:600) and (max-width: 800px){
+
+    h1{
+        color: orange;
+        /* transform: rotateX(90); */
+    }
+
+}
+
+@media (orientation: landscape){
+    body{
+        background-color: magenta;
+    }
+}
 
