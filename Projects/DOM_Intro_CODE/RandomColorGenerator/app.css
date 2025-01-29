@@ -1,0 +1,8 @@
+body{
+  display: block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 25%;
+  height: 100vh;
+}

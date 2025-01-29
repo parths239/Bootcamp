@@ -1,0 +1,59 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #543A14;
+  background-color: #5D8736;
+  margin: 0;            /* Remove default margin */
+  height: 100vh;        /* Ensure body takes up the full screen height */
+  display: flex;        /* This is optional, depending on the layout */
+  flex-direction: column; /* Ensures vertical stacking of elements */
+}
+
+
+.navigation {
+  /* display: flex; */
+  /* position: sticky; */
+  overflow: hidden;  
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+  padding-top: 5%;
+  padding-bottom: 5%;
+  top: 0;
+  
+}
+
+
+#container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+
+}
+
+.pokemonCard {
+background-color: #E5D0AC;
+display: inline-block;
+text-align: center;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 5%;
+margin: 10px;
+}
+
+.trialButton {
+  position: fixed; /* Ensures it covers the screen, regardless of other content */
+  top: 0;          /* Start at the top of the viewport */
+  left: 0;         /* Start at the left of the viewport */
+  width: 100%;     /* Span the entire width */
+  height: 100vh;   /* Span the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: add a light overlay effect */
+}
