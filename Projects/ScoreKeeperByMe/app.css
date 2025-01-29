@@ -1,0 +1,47 @@
+body {
+  font-family: Inter;
+  justify-items: center;
+  justify-content: left;
+}
+
+#introImage {
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 1vh;
+}
+
+#introImage p{
+  padding-left: 1vh;
+  padding-bottom: -2vh;
+}
+
+#introImage img{
+  width: 50vh;
+  height: 30vh;
+}
+
+#gameSelector{
+  display: flex;
+  width: 50vh;
+  align-items: center;
+}
+#gameSelector h2{
+ margin-right: 2vh;
+}
+
+
+#mainPart {
+  margin-left: 1vh;
+  padding-left: 1vh;
+  justify-items: left;
+  width: 50vh;
+  height: 20vh;
+  border: 1px solid rgb(0, 0, 0);
+}
+#scoreChanger{
+  width: 48vh;
+  height: 5vh;
+}
+#scoreChanger button {
+  width: 32%;
+  align-content: center;
+}
